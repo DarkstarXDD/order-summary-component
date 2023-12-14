@@ -10,8 +10,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 
 ### Links
-- Live Site URL: 
-- Solution URL: 
+- Live Site URL: https://order-summary-component-darkstarxdd.vercel.app/
+- Solution URL: https://www.frontendmentor.io/solutions/order-summary-component-gA4j0-_IGs
 #
 
 
