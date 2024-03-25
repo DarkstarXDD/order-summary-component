@@ -11,6 +11,7 @@
   src: local("RedHatDisplay-Bold"),
     url("./fonts/red-hat-display-v19-latin-700.woff2");
 }
+
 @font-face {
   font-family: "Red Hat Display";
   font-weight: 900;
@@ -94,7 +95,7 @@ body {
 
 .card__hero-img {
   width: 28.125rem;
-  height: 13.75rem;
+  height: auto;
 }
 
 .card__wrapper {
