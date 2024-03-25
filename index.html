@@ -1,56 +1,82 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
+<html lang="en-US">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Darkstar" />
+    <meta
+      name="description"
+      content="Darkstar's solution for the Order Summary Component challenge on frontendmentor.io"
+    />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://order-summary-component-darkstarxdd.vercel.app/"
+    />
+    <meta
+      property="og:title"
+      content="Order Summary Component - Frontend Mentor"
+    />
+    <meta
+      property="og:description"
+      content="Darkstar's solution for the Order Summary Component challenge on frontendmentor.io"
+    />
+    <meta
+      property="og:image"
+      content="https://order-summary-component-darkstarxdd.vercel.app/images/screenshot_desktop.jpeg"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1440" />
+    <meta property="og:image:height" content="900" />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles.css">
-    
-    <title>Frontend Mentor | Order Summary Card</title>
-
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Order Summary Component</title>
   </head>
 
-
   <body>
-    
-    <main>
+    <main class="card">
+      <img
+        class="card__hero-img"
+        src="images/illustration-hero.svg"
+        alt="cartoon drawing of person listening to songs using a headset connected to a phone"
+        width="450"
+        height="220"
+      />
 
-      <img class="hero-img" src="images/illustration-hero.svg" alt="person-listening-to-songs">
+      <div class="card__wrapper flex-column">
+        <h1 class="card__title">Order Summary</h1>
+        <p class="card__text">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
 
-      <div class="order-summary-container">
+        <div class="plan__wrapper flex-row">
+          <img
+            class="plan__music-icon"
+            src="images/icon-music.svg"
+            alt=""
+            width="48"
+            height="48"
+          />
 
-        <h1 class="order-summary-title">Order Summary</h1>
-        <p class="order-summary-text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-
-        <div class="plan-container">
-
-          <img class="music-icon" src="images/icon-music.svg" alt="">
-
-          <div class="plan-details">
-            <p id="title">Annual Plan</p>
-            <p id="price">$59.99/year</p>
+          <div class="plan flex-column">
+            <p class="plan__title">Annual Plan</p>
+            <p class="plan__price">$59.99/year</p>
           </div>
 
-          <a class="btn-change" href="#">Change</a>
-
+          <a class="plan__change" href="#">Change</a>
         </div>
 
         <a class="btn-payment" href="#">Proceed to Payment</a>
         <a class="btn-cancel" href="#">Cancel Order</a>
-
       </div>
-      
     </main>
-
   </body>
-
 </html>
